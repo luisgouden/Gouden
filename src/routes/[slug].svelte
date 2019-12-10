@@ -40,7 +40,7 @@
 		flex-direction: column;
 		align-self: flex-end
 	}
-	aside img {
+	aside :global(img) {{
 	  max-width: var(--heightMenu)
 	}
 
