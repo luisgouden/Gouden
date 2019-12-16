@@ -23,7 +23,6 @@
 
 <style>
 
-
 	section :global(img) {
 			box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.2);
 			margin-bottom: 4rem;
@@ -40,7 +39,7 @@
 		flex-direction: column;
 		align-self: flex-end
 	}
-	aside :global(img) {{
+	aside :global(img) {
 	  max-width: var(--heightMenu)
 	}
 
@@ -62,9 +61,10 @@
 
 <aside>
 {#each index as id, i}
-<a href="{post.title}/#{i+1}">
 
-<img alt='Borat' src='{post.title}_{i+1}.png'>
+<a href="{post.title}/#{i+1}">
+	<img alt='Borat' src='{post.title}_{i+1}.png'>
 </a>
+
 {/each}
 </aside>
