@@ -121,7 +121,7 @@ h3 {
 }
 
 </style>
-<a href="{nameProject}" style="background-image: url({nameProject}.png);" >
+<a href="{nameProject}" style="background-image: url({nameProject}/{nameProject}.png);" >
 <article>
 	<h3>{nameProject}</h3>
 	<hr class="desktop">

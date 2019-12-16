@@ -53,7 +53,7 @@
 
 {#each index as id, i}
 
-<img id="{i+1}" alt='Borat' src='{post.title}_{i+1}.png'>
+<img id="{i+1}" alt='Borat' src='{post.title}/{post.title}_{i+1}.png'>
 
 {/each}
 
@@ -63,7 +63,7 @@
 {#each index as id, i}
 
 <a href="{post.title}/#{i+1}">
-	<img alt='Borat' src='{post.title}_{i+1}.png'>
+	<img alt='{post.title}_{i+1}' src='{post.title}/{post.title}_{i+1}.png'>
 </a>
 
 {/each}
