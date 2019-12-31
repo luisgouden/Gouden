@@ -1,4 +1,21 @@
 <script>
+function enviar(){
+console.log('hola')
+  console.log('estoy dentro');
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', 'formuario.php');
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      console.log('Funciona: ' + xhr.responseText);
+    } else {
+      console.log('Error:' + xhr.status);
+    }
+  };
+  xhr.send();
+};
+
+
+
 
 </script>
 <style>
@@ -50,6 +67,9 @@ img {
 	<p class="social"><strong>Mail: </strong><a href="mailto:luisgouden@gmail.com">luisgouden@gmail.com</a></p>
 	<p><strong>Instagram: </strong><a target="_blank" href="https://www.instagram.com/luisgouden">luisgouden</a></p>
 	</div>
+
+
+
 </article>
 
 </section>
