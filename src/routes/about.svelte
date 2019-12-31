@@ -1,21 +1,4 @@
 <script>
-function enviar(){
-console.log('hola')
-  console.log('estoy dentro');
-  var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'formuario.php');
-  xhr.onload = function() {
-    if (xhr.status === 200) {
-      console.log('Funciona: ' + xhr.responseText);
-    } else {
-      console.log('Error:' + xhr.status);
-    }
-  };
-  xhr.send();
-};
-
-
-
 
 </script>
 <style>
@@ -48,6 +31,7 @@ img {
   }
 
 }
+
 
 </style>
 
