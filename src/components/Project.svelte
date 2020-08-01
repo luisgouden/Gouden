@@ -129,7 +129,7 @@ h3 {
 }
 
 </style>
-<a href="{nameProject}" on:mousemove={handleMousemove} style="background : linear-gradient(to top left,hsl(20, 70%, 70%), hsl(40, 70%, 70%)) no-repeat; background-size: 60%;">
+<a href="{nameProject}" on:mousemove={handleMousemove} style="background : linear-gradient(to top left,hsl({m.x}, 70%, 70%), hsl({m.y}, 70%, 70%)) no-repeat; background-size: 60%;">
 <article>
 	<h3>{nameProject}</h3>
 	<hr class="desktop">
