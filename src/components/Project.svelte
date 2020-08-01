@@ -87,15 +87,15 @@ h3 {
 	a {
 		height: 20vh;
 		margin-top: -2rem;
-		background-size: 64%;
-		background-position: 0;
+		background-position: left;
 		border-left: none;
 		transition: background-size .5s ease
 	}
 
 	a:nth-child(2n) {
 		flex-direction: row;
-		background-position: 100%
+		background-position: right;
+		background-repeat: no-repeat;
 	}
 
 	a:nth-child(2n) article {
@@ -129,7 +129,7 @@ h3 {
 }
 
 </style>
-<a href="{nameProject}" on:mousemove={handleMousemove} style="background : linear-gradient(to top left,hsl({m.x}, 70%, 70%), hsl({m.y}, 70%, 70%)) no-repeat; background-size: 60%;">
+<a href="{nameProject}" on:mousemove={handleMousemove} style="background-image: inear-gradient(to top left,hsl({m.x}deg, 70%, 70%), hsl({m.y}deg, 70%, 70%));">
 <article>
 	<h3>{nameProject}</h3>
 	<hr class="desktop">
