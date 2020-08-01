@@ -89,6 +89,7 @@ h3 {
 		margin-top: -2rem;
 		background-position: left;
 		border-left: none;
+		background-size: 60%;
 		transition: background-size .5s ease
 	}
 
