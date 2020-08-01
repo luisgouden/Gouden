@@ -52,13 +52,14 @@ a:focus, a:hover {
 
 a:focus h3, a:hover h3 {
   display: block;
-  color: #000
+  
 }
 
 h3 {
-  display: none;
+  display: block;
   text-align: right;
-  font-weight: 300
+  font-weight: 300;
+	color: #000;
 }
 
 @media (min-width:992px) {
