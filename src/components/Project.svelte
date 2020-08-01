@@ -1,8 +1,10 @@
 <script>
 export let nameProject;
 export let index;
+let w =  Math.floor((Math.random() * 256) + 1);
+let v =  Math.floor((Math.random() * 256) + 1);
 
-let m = { x: 15, y: 50 };
+let m = { x: Math.floor((Math.random() * 256) + 1, y: Math.floor((Math.random() * 256) + 1) };
 
 function handleMousemove(event) {
  m.x = event.clientX;
