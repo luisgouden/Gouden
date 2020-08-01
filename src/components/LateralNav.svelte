@@ -32,7 +32,6 @@ nav{
 
   aside{
     width: 25%
-		margin: 4rem 0;
   }
 
 	nav {

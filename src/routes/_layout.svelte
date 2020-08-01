@@ -17,4 +17,4 @@
 <aside />
 {/if}
 
-<Footer {segment}/>
+<Footer {segment} />

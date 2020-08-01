@@ -8,51 +8,28 @@ let segment;
 
 <style>
 
-aside {
-  height: max-content;
-  position: sticky;
-  display: flex;
-  justify-content: center;
-	flex-direction: column;
-	order: 0;
-	top: 0;
-	width: 100%;
-	align-items: center
-
-}
-
 nav{
   display: none;
 	font-weight: 400;
 	width:100%;
-	padding-left: 4px;
 }
 
 @media (min-width:992px) {
 
   aside{
     width: 25%
-		margin: 4rem 0;
   }
 
 	nav {
 	  display: flex;
-	  align-items: center;
-	  width: min-content;
-		flex-direction: column
+		flex-direction: row;
 	}
 
 }
 
 @media (min-width:1200px) {
 
-  aside {
-    top: 2rem;
-    width: 50%
-  }
-
 	nav{
-		width:200px;
 		padding-left: 4px;
 	}
 

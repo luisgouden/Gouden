@@ -42,6 +42,6 @@ const posts = [
 	}
 ];
 
-posts.forEach(post => {	post.html});
+posts.forEach(post => {post.html});
 
 export default posts;

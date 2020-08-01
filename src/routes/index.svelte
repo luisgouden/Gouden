@@ -15,9 +15,9 @@
 
 <section>
 
-{#each list as project}
+{#each list as project, i}
 
-<Project nameProject= {project.title}/>
+<Project nameProject= {project.title} index= {i}/>
 
 {/each}
 

@@ -1,5 +1,14 @@
 <script>
 export let nameProject;
+export let index;
+
+let m = { x: 0, y: 0 };
+
+	function handleMousemove(event) {
+		m.x = event.clientX;
+		m.y = event.clientY;
+
+	}
 
 </script>
 
@@ -121,7 +130,7 @@ h3 {
 }
 
 </style>
-<a href="{nameProject}" style="background-image: url({nameProject}/{nameProject}.png);" >
+<a href="{nameProject}" on:mousemove={handleMousemove} style="background : linear-gradient(to top left,hsl({m.x}deg, 70%, 70%), hsl({m.y}deg, 70%, 70%));">
 <article>
 	<h3>{nameProject}</h3>
 	<hr class="desktop">

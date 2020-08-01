@@ -1,5 +1,9 @@
 <script>
 
+
+
+
+
 </script>
 <style>
 
@@ -51,9 +55,6 @@ img {
 	<p class="social"><strong>Mail: </strong><a href="mailto:luisgouden@gmail.com">luisgouden@gmail.com</a></p>
 	<p><strong>Instagram: </strong><a target="_blank" href="https://www.instagram.com/luisgouden">luisgouden</a></p>
 	</div>
-
-
-
 </article>
 
 </section>
