@@ -3,6 +3,8 @@ export let nameProject;
 export let index;
 let w = Math.floor((Math.random() * 256) + 1);
 let v = Math.floor((Math.random() * 256) + 1);
+let d = Math.floor((Math.random() * 365) + 1);
+	
 
 let m = { x: w, y: v};
 
@@ -132,7 +134,7 @@ h3 {
 }
 
 </style>
-<a href="{nameProject}" on:mousemove={handleMousemove} style="background-image: linear-gradient(to top left,hsl({m.x}, 70%, 70%), hsl({m.y}, 70%, 70%));">
+<a href="{nameProject}" on:mousemove={handleMousemove} style="background-image: linear-gradient({d}deg,hsl({m.x}, 70%, 70%), hsl({m.y}, 70%, 70%));">
 <article>
 	<h3>{nameProject}</h3>
 	<hr class="desktop">
