@@ -2,7 +2,7 @@
 export let nameProject;
 export let index;
 
-let m = { x: 0, y: 0 };
+let m = { x: 15, y: 50 };
 
 function handleMousemove(event) {
  m.x = event.clientX;
