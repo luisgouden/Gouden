@@ -31,15 +31,15 @@ nav{
 @media (min-width:992px) {
 
   aside{
-    width: 25%
-		margin: 4rem 0;
+    width: 25%;
+    margin: 4rem 0;
   }
 
 	nav {
 	  display: flex;
 	  align-items: center;
 	  width: min-content;
-		flex-direction: column
+	  flex-direction: column
 	}
 
 }
