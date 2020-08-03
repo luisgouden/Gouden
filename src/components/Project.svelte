@@ -14,8 +14,8 @@ function handleMousemove(event) {
 }
 	
 function handleTouchMove(event) {
- m.x = event.pageX;
- m.y = event.pageY;
+ m.x = event.clientX;
+ m.y = event.clientY;
 }
 
 </script>
