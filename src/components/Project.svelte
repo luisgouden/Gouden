@@ -12,6 +12,11 @@ function handleMousemove(event) {
  m.x = event.clientX;
  m.y = event.clientY;
 }
+	
+function handleTouchMove(event) {
+ m.x = event.pageX;
+ m.y = event.pageY;
+}
 
 </script>
 
@@ -135,7 +140,7 @@ h3 {
 }
 
 </style>
-<a href="{nameProject}" on:mousemove={handleMousemove} style="background-image: linear-gradient({d}deg,hsl({m.x}, 70%, 70%), hsl({m.y}, 70%, 70%));">
+<a href="{nameProject}" on:mousemove={handleMousemove} on:touchMove={handleTouchMove} style="background-image: linear-gradient({d}deg,hsl({m.x}, 70%, 70%), hsl({m.y}, 70%, 70%));">
 <article>
 	<h3>{nameProject}</h3>
 	<hr class="desktop">
