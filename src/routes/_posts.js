@@ -23,7 +23,7 @@ const posts = [
 	{
 		title: 'stellar',
 		slug: 'stellar',
-		images: 4
+		images: 5
 
 	},
 
@@ -31,6 +31,13 @@ const posts = [
 		title: '36daysoftype',
 		slug: '36daysoftype',
 		images: 2
+
+	},
+
+	{
+		title: 'journey',
+		slug: 'journey',
+		images: 8
 
 	},
 

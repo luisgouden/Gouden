@@ -53,7 +53,13 @@
 
 {#each index as id, i}
 
-<img id="{i+1}" alt='Borat' src='{post.title}/{post.title}_{i+1}.png'>
+<img id="{i+1}"
+alt='{post.title}_{i+1}'
+src='{post.title}/{post.title}_{i+1}_l.png'
+srcset="{post.title}_{i+1}_s.jpg 350w,
+{post.title}_{i+1}_m.jpg 700w,
+{post.title}_{i+1}_l.jpg 1400w"
+sizes="(max-width: 400px) 350px, (max-width: 1200px) 700px, 1400px">
 
 {/each}
 
@@ -63,7 +69,7 @@
 {#each index as id, i}
 
 <a href="{post.title}/#{i+1}">
-	<img alt='{post.title}_{i+1}' src='{post.title}/{post.title}_{i+1}.png'>
+	<img alt='{post.title}_{i+1}' src='{post.title}/{post.title}_{i+1}_s.jpg'>
 </a>
 
 {/each}
