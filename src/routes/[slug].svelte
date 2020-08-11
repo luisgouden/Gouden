@@ -55,11 +55,7 @@
 
 <img id="{i+1}"
 alt='{post.title}_{i+1}'
-src='{post.title}/{post.title}_{i+1}_l.jpg'
-srcset="{post.title}_{i+1}_s.jpg 350w,
-{post.title}_{i+1}_m.jpg 700w,
-{post.title}_{i+1}_l.jpg 1400w"
-sizes="(max-width: 400px) 350px, (max-width: 1200px) 700px, 1400px">
+src='{post.title}/{post.title}_{i+1}_l.jpg'>
 
 {/each}
 
