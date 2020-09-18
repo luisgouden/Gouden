@@ -1,9 +1,4 @@
 <script>
-
-
-
-
-
 </script>
 <style>
 
@@ -53,7 +48,7 @@ img {
 	<p>Al vivir con un pie en cada uno de estos dos mundos, me siento especialmente cómodo trabajando en procesos que suponen un puente entre diseño y desarrollo, así como en equipos multidisciplinares.</p>
 	<p>Y, si hasta aquí te ha parecido interesante lo que digo y quieres que te cuente más sobre mí...</p>
 	<p class="social"><strong>Mail: </strong><a href="mailto:luisgouden@gmail.com">luisgouden@gmail.com</a></p>
-	<p><strong>Instagram: </strong><a target="_blank" href="https://www.instagram.com/luisgouden">luisgouden</a></p>
+	<p><strong>Instagram: </strong><a target="_blank" href="https://www.instagram.com/goudenjourney">Goudenjourney</a></p>
 	</div>
 </article>
 
