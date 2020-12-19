@@ -44,6 +44,6 @@ let segment;
 <ul>
 	<li><a class='{segment === "work" ? "selected" : ""}' href='.'>work</a></li>
 	<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-	<li><a target="_blank" href="https://www.instagram.com/luisgouden">instagram</a></li>
+	<li><a target="_blank" href="https://www.instagram.com/goudenjourney">instagram</a></li>
 
 </ul>
