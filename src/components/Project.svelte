@@ -4,7 +4,6 @@ export let index;
 let w = Math.floor((Math.random() * 256) + 1);
 let v = Math.floor((Math.random() * 256) + 1);
 let d = Math.floor((Math.random() * 360) + 1);
-	
 
 let m = { x: w, y: v};
 
@@ -12,7 +11,7 @@ function handleMousemove(event) {
  m.x = event.clientX;
  m.y = event.clientY;
 }
-	
+
 function handleTouchMove(event) {
  m.x = event.clientX;
  m.y = event.clientY;
@@ -57,7 +56,7 @@ a:focus, a:hover {
 
 a:focus h3, a:hover h3 {
   display: block;
-  
+
 }
 
 h3 {

@@ -117,6 +117,20 @@ article, main, section {
   width: 100%
 }
 
+main {
+  display: flex;
+  flex-direction: column
+}
+
+@media (min-width:992px) {
+  main {
+    flex-direction: row
+  }
+}
+
+
+
+
 ul {
   padding: 0
 }
@@ -134,6 +148,10 @@ a,a:hover, a:visited {
 a:active{
   color:var(--blackHover);
 }
+
+
+
+
 
 html {
   font-size: 16px
@@ -224,15 +242,4 @@ a:active, a:hover {
 
 b, strong {
   font-weight: 600
-}
-
-main {
-  display: flex;
-  flex-direction: column
-}
-
-@media (min-width:992px) {
-  main {
-    flex-direction: row
-  }
 }

@@ -7,8 +7,8 @@
 </script>
 
 <style>
-
 </style>
+
 <Nav {segment}/>
 
 <slot />
