@@ -1,53 +1,48 @@
 <script>
-let segment;
+  let segment;
 </script>
 
 <style>
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-weight: 400;
+  }
 
-	ul {
-		display: flex;
-	  justify-content: space-evenly;
-		align-items: center;
-		width: 100%;
-		font-weight: 400
-	}
+  li {
+    padding: 0;
+    font-size: 120%;
+  }
 
-	li {
-	  padding: 0;
-	  font-size: 120%
-	}
+  .selected {
+    color: var(--blackHover);
+  }
 
-.selected{
-	color:var(--blackHover);
-}
+  @media (min-width: 992px) {
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
 
-@media (min-width:992px) {
+    li {
+      line-height: 2;
+      margin-top: 0.5rem;
+      font-size: 100%;
+    }
+  }
 
-	ul{
-		flex-direction: column;
-		align-items: flex-start
-	}
-
-	li {
-			line-height: 2;
-			margin-top: .5rem;
-			font-size: 100%;
-	}
-}
-
-@media (min-width:1200px) {
-
-}
-
+  @media (min-width: 1200px) {
+  }
 </style>
 
 <ul>
-	<li><a class='{segment === "work" ? "selected" : ""}' href='.'>work</a></li>
-	<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-<<<<<<< Updated upstream
-	<li><a target="_blank" href="https://www.instagram.com/goudenjourney">instagram</a></li>
-
-=======
-	<li><a target="_blank" href="https://www.instagram.com/luisgouden">instagram</a></li>
->>>>>>> Stashed changes
+  <li><a class={segment === "work" ? "selected" : ""} href=".">work</a></li>
+  <li>
+    <a class={segment === "about" ? "selected" : ""} href="about">about</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://www.instagram.com/laitkraun">instagram</a>
+  </li>
 </ul>
