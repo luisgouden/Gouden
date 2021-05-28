@@ -17,7 +17,7 @@ const posts = [
 	{
 		title: 'chillwave',
 		slug: 'chillwave',
-		images: 9
+		images: 8
 	},
 
 	{
