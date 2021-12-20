@@ -42,7 +42,7 @@ img {
 
 <article>
 <img src="about.png" alt="">
-<div class="two"> <strong>¡Hola!</strong>
+<div class="two"> <strong>¡Hi!</strong>
 	<p class="social"><strong>Mail: </strong><a href="mailto:luisgouden@gmail.com">luisgouden@gmail.com</a></p>
 	<p><strong>Instagram: </strong><a target="_blank" href="https://www.instagram.com/laitkraun">Luisgouden</a></p>
 	</div>
