@@ -349,7 +349,6 @@
 	}
 </style>
 
-<section>
 	{#if showResults}
 		<h3>Resultados</h3>
 		<ul>
@@ -373,4 +372,4 @@
 			<button on:click={nextQuestion}>Siguiente</button>
 		{/if}
 	{/if}
-</section>
+
